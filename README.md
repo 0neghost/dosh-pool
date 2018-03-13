@@ -71,24 +71,12 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 * Prevent "transaction is too big" error with "payments.maxTransactionAmount" option
 
 
-### Community / Support
-
-* [CryptoNote Technology](https://cryptonote.org)
-* [CryptoNote Forum](https://forum.cryptonote.org/)
-* [CryptoNote Universal Pool Forum](https://bitcointalk.org/index.php?topic=705509)
-* [Forknote](https://forknote.net)
-
-#### Pools Using This Software
-
-* http://democats.org
-* http://cryptonotepool.com/
-
 Usage
 ===
 
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
-* simplewallet (Bytecoin/Forknote v1.1.11).  Do NOT use Forknote 2.0.0, since it's in alpha
+* walletd
 ```
 * [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
