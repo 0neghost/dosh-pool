@@ -146,6 +146,8 @@ Don't forget to open up the ports (3333,5555,7777,17333)
 
 Use redis-commander or any other redis GUI interface for convenience. If you are familiar with redis-cli then you should be alright.
 
+Use forever to keep pool running in background.
+
 IMPORTANT: Customize the content inside the website directory before publishing.
 
 #### 2) Configuration
