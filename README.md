@@ -115,9 +115,11 @@ sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodej
 #### 1) Downloading & Installing on Ubuntu 14.04 and 16.04
 
 First remove NodeJS:
+
 sudo apt-get remove npm nodejs -y
 
 Then download and unzip NodeJS v0.10.48:
+
 wget https://nodejs.org/dist/v0.10.48/node-v0.10.48.tar.gz && tar xvzf node-v0.10.48.tar.gz
 
 
@@ -141,11 +143,15 @@ sudo systemctl start redis
 
 sudo npm install forever -g
 
+
 walletd preferred for pools (generate random password for dosh_walletd.conf)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ./walletd --config ../../../dosh_walletd.conf --container-file=mycontainer --container-password=your_password --generate-container
 
 ./walletd --config ../../../dosh_walletd.conf --container-file=mycontainer --container-password=your_password --daemon
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Don't forget to open up the ports (3333,5555,7777,17333)
