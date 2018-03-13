@@ -239,7 +239,7 @@ Explanation for each field:
     },
 
     /* Set difficulty on miner client side by passing <address> param with .<difficulty> postfix
-       minerd -u D3z2DDWygoZU4NniCNa4oMjjKi45dC2KHUWUyD1RZ1pfgnRgcHdfLVQgh5gmRv4jwEjCX5LoLERAf5PbjLS43Rkd8vFUM1m.5000 */
+       minerd -u XwnmG9j8tZ6eeztCRYd5LpLDnF9ktiamwCZzgk7apXDRYnwB9hFJSahAFktnAwSKUTERZN5pHTTjR8eGjGGqyDRQ1aiFMypda.5000 */
     "fixedDiff": {
         "enabled": true,
         "separator": ".", // character separator between <address> and <difficulty>
